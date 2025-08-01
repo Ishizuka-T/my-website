@@ -249,6 +249,87 @@ img {
 }
 
 /*--------------------------------
+ Certifications
+---------------------------------*/
+.certifications-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.certifications-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.certifications-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.certifications-body {
+  flex: 1;
+}
+
+.certifications-name {
+  margin-bottom: 10px;
+}
+
+.certifications-text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/*--------------------------------
+ Personality
+---------------------------------*/
+.personality-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.personality-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.personality-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.personality-body {
+  flex: 1;
+}
+
+.personality-name {
+  margin-bottom: 10px;
+}
+
+.personality-text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.personality-note {
+  font-size: 0.85em;
+  color: #666;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/*--------------------------------
  About
 ---------------------------------*/
 .profile {
@@ -402,6 +483,31 @@ img {
 .github-button img {
   width: 24px;
   height: 24px;
+}
+
+.mail-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.mail-button:hover {
+  background-color: #d5d5d5;
+}
+
+.mail-button iconify-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
 }
 
 /*media Queries 767
