@@ -684,3 +684,27 @@ img {
     margin-bottom: 20px;
   }
 }
+
+/* Qualification icons and personality details */
+.certifications-img,.personality-img{flex-shrink:0}
+.certifications-img img,.isfj-list .personality-img img{display:block;width:50px;height:50px}
+.certifications-body,.personality-body{min-width:0}
+.personality-subtitle{text-align:center;font-size:21px;margin:0 0 20px}
+.personality-intro{text-align:center;font-size:14px;line-height:1.8;margin:0 auto 36px;max-width:720px}
+.personality-source{font-size:12px;text-align:center;margin-top:30px;color:#666}
+.personality-source a{text-decoration:underline}
+.strengths-heading{margin-top:65px}
+@media screen and (max-width:767px){
+  .certifications-list,.personality-list{display:block;margin-bottom:0}
+  .certifications-item,.personality-item{width:100%;margin-bottom:35px}
+  .certifications-item:last-child,.personality-item:last-child{margin-bottom:0}
+  .certifications-text,.personality-text{font-size:13px;line-height:1.8}
+  .personality-subtitle{font-size:18px}
+}
+
+.skill-subtitle{font-size:21px;margin-bottom:35px;text-align:center}
+.skill-subtitle-spaced{margin-top:70px}
+.learning-note{margin-top:60px;padding-top:25px;border-top:1px solid #ddd}
+.learning-note h3{font-size:17px;margin-bottom:12px}
+.learning-note p{font-size:14px;line-height:1.8}
+@media screen and (max-width:767px){.skill-subtitle{font-size:18px}.skill-subtitle-spaced{margin-top:45px}.learning-note{margin-top:40px}}
